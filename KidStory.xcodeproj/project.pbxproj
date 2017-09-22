@@ -13,7 +13,7 @@
 		C4E069F41F73AEEC003DFEB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E069F21F73AEEC003DFEB5 /* Main.storyboard */; };
 		C4E069F61F73AEEC003DFEB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E069F51F73AEEC003DFEB5 /* Assets.xcassets */; };
 		C4E069F91F73AEEC003DFEB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E069F71F73AEEC003DFEB5 /* LaunchScreen.storyboard */; };
-		C4E06A031F74EA0A003DFEB5 /* JAutoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E06A021F74EA0A003DFEB5 /* JAutoPlayer.m */; };
+		C4E06A061F74EDF0003DFEB5 /* JAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E06A051F74EDF0003DFEB5 /* JAudioPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		C4E069F51F73AEEC003DFEB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4E069F81F73AEEC003DFEB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4E069FA1F73AEEC003DFEB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4E06A011F74EA0A003DFEB5 /* JAutoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAutoPlayer.h; sourceTree = "<group>"; };
-		C4E06A021F74EA0A003DFEB5 /* JAutoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAutoPlayer.m; sourceTree = "<group>"; };
+		C4E06A041F74EDF0003DFEB5 /* JAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAudioPlayer.h; sourceTree = "<group>"; };
+		C4E06A051F74EDF0003DFEB5 /* JAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAudioPlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 		C4E06A001F74B016003DFEB5 /* Player */ = {
 			isa = PBXGroup;
 			children = (
-				C4E06A011F74EA0A003DFEB5 /* JAutoPlayer.h */,
-				C4E06A021F74EA0A003DFEB5 /* JAutoPlayer.m */,
+				C4E06A041F74EDF0003DFEB5 /* JAudioPlayer.h */,
+				C4E06A051F74EDF0003DFEB5 /* JAudioPlayer.m */,
 			);
 			name = Player;
 			sourceTree = "<group>";
@@ -164,9 +164,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4E06A031F74EA0A003DFEB5 /* JAutoPlayer.m in Sources */,
 				C4E069F11F73AEEC003DFEB5 /* ViewController.m in Sources */,
 				C4E069EE1F73AEEC003DFEB5 /* AppDelegate.m in Sources */,
+				C4E06A061F74EDF0003DFEB5 /* JAudioPlayer.m in Sources */,
 				C4E069EB1F73AEEC003DFEB5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

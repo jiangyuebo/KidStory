@@ -1,13 +1,13 @@
 //
-//  JAutoPlayer.h
+//  JAudioPlayer.m
 //  KidStory
 //
 //  Created by Jerry on 2017/9/22.
 //  Copyright © 2017年 Jerry. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "JAudioPlayer.h"
 
-@interface JAutoPlayer : UIView
+@implementation JAudioPlayer
 
 @end
